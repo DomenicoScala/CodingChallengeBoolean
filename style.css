@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.riquadro{
+    width: 1200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 30px auto;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    height: 800px;
+}
+
+#logo{
+    margin: 10px auto 10px;
+    width: 200px;
+    display: block;
+}
+
+header > p{
+    color: lime;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background-color: lime;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    height: 7%;
+    padding-top: 13px;
+}
+
+main{
+    margin: auto;
+    width: 80%;
+}
+
+.blocco h2{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: inline-block;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.blocco input[type="checkbox"]{
+    width: 2%;
+    margin: 0;
+}
+
+.blocco span{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.blocco .indirizzo{
+  display: inline-block;
+  width: 97%;
+  font-size: 12px;
+  font-weight: 350px;
+}
+
+.blocco .carica{
+  display: inline-block;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+#primacarica{
+    background-color: orange;
+    width: 350px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+#secondacarica{
+    background-color: green;
+    width: 650px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+#terzacarica{
+    background-color: red;
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 4px;
+}
